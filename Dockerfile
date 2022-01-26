@@ -1,4 +1,4 @@
-FROM python:3.8.10
+FROM python:3.9-slim
 WORKDIR /FLASK_APP/
 COPY req.txt req.txt
 COPY . .
