@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM ubuntu:16.04
 WORKDIR /FLASK_APP/
 COPY req.txt req.txt
 COPY . .
